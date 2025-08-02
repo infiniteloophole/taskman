@@ -640,4 +640,27 @@ redis-cli flushall
 # Check for security updates
 safety check
 npm audit
-``` 
+```
+
+## Automation Features
+
+### CI/CD Pipelines
+- **Backend**: Django tests, migrations, and Swagger docs
+- **Frontend**: React tests, builds, and Storybook
+
+### Testing
+- End-to-end tests with Cypress
+- Accessibility tests with Axe
+
+### Documentation
+- API docs: `/swagger/` or `/redoc/`
+- Component docs: `npm run storybook`
+
+### Monitoring
+- Sentry error tracking (backend + frontend)
+
+### Environment Variables
+Copy `.env.example` to `.env` and configure:
+- `SENTRY_DSN` for error tracking
+- Database credentials
+- API base URLs

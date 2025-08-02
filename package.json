@@ -1,5 +1,16 @@
 {
   "dependencies": {
-    "@radix-ui/react-tooltip": "^1.2.7"
+    "@radix-ui/react-tooltip": "^1.2.7",
+    "@types/react-beautiful-dnd": "^13.1.8",
+    "@types/recharts": "^1.8.29",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-router-dom": "^7.7.1",
+    "recharts": "^3.1.0"
+  },
+  "devDependencies": {
+    "@storybook/builder-vite": "^9.1.0",
+    "@storybook/react-vite": "^9.1.0",
+    "@types/node": "^24.1.0",
+    "@types/testing-library__cypress": "^5.0.13"
   }
 }
